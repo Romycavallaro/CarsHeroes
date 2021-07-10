@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: Roboto;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header div.encabezado1 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 18px;
+    background-color: #1CD1B0;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-left: 67px;
+}
+
+header div.encabezado2 {
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding-top: 27px;
+    padding-bottom: 28px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+header div.encabezado2 h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+header nav.encabezado3 ul {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center; 
+    color: #FFFFFF;
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px 10px 1700px;
+    justify-content: space-between;
+}
+
+main section {
+    width: 1400px;
+    height: 733px;
+    left: 210px;
+    top: 200px;
+    display: flex;
+    margin: 200px 210px 100px 250px;
+    justify-content: space-around;
+    padding-left: 50px;
+    flex-wrap: wrap;
+}
+
+main section article.batman {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px 16px 0px 0px;
+}
+
+main section article.batman div.cardbatman {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px 20px 5px 5px;
+    background-image: url(../img/batman.png);
+}
+
+
+main section article.batman div.textocards {
+    width: 400px;
+    height: 800px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main section article.batman div.textocards h3 {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+main section article.batman div.textocards p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+main section article.batman div.textocards button {
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    text-align: center;
+    border: none;
+}
+
+footer {
+    color:#F3F3F3;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 10px 200px 10px;
+}
