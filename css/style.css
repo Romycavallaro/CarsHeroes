@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 header div.encabezado1 {
     color: #000000;
     font-size: 20px;
@@ -42,50 +43,62 @@ header nav.encabezado3 ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: row;
-    padding: 10px 30px 10px 1700px;
+    padding: 10px 30px 10px 1000px;
     justify-content: space-between;
 }
 
 main section {
-    width: 1400px;
-    height: 733px;
-    left: 210px;
-    top: 200px;
     display: flex;
-    margin: 200px 210px 100px 250px;
-    justify-content: space-around;
-    padding-left: 50px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 main section article.batman {
-    width: 400px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px 16px 0px 0px;
+    position: relative;
+    width: 300px;
+    margin: 100px 0;
+    text-align: center;
 }
 
 main section article.batman div.cardbatman {
-    position: relative;
-    width: 400px;
-    height: 550px;
-    border-radius: 20px 20px 5px 5px;
+    padding: 10px;
+    width: 100%;
+    height: 195px;
+    border-radius: 15px 15px 0 0;
+    text-align: left;
     background-image: url(../img/batman.png);
+    background-size: cover;
 }
 
+main section article.batman div.cardbatman i {
+    color: red;
+    font-size: 24px;
+}
+
+main section article.batman img.circulo {
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    width: 120px;
+    border-radius: 50%;
+}
 
 main section article.batman div.textocards {
-    width: 400px;
-    height: 800px;
+    width: 100%;
+    height: 350px;
     background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 main section article.batman div.textocards h3 {
     font-size: 30px;
     line-height: 35px;
     text-align: center;
+    padding-top: 40px;
 }
 
 main section article.batman div.textocards p {
@@ -96,11 +109,41 @@ main section article.batman div.textocards p {
 }
 
 main section article.batman div.textocards button {
-    width: 128.78px;
-    height: 48.52px;
+    color: white;
+    margin: 25px;
+    padding: 10px 100px;
     background-color: #00669F;
-    text-align: center;
     border: none;
+}
+
+main section article.batman div.cardharley {
+    padding: 10px;
+    width: 100%;
+    height: 195px;
+    border-radius: 15px 15px 0 0;
+    text-align: left;
+    background-image: url(../img/harley.png);
+    background-size: cover;
+}
+
+main section article.batman div.cardharley i {
+    color: red;
+    font-size: 24px;
+}
+
+main section article.batman div.cardsuperman {
+    padding: 10px;
+    width: 100%;
+    height: 195px;
+    border-radius: 15px 15px 0 0;
+    text-align: left;
+    background-image: url(../img/superman.png);
+    background-size: cover;
+}
+
+main section article.batman div.cardsuperman i {
+    color: red;
+    font-size: 24px;
 }
 
 footer {
